@@ -558,12 +558,13 @@ color:#f7f7f7;
 .hamburger-menu:has(input:checked) + .sidebar{
     translate: -31% -6.7% ;
 }
-@media (max-width : 600px) {
+@media (max-width : 600px) 
+{
     html,body{
         height: 100vh;
         width: 100vw;
-        overflow-x: hidden;
-        overflow-y: hidden;
+        
+        
     }
     
     
@@ -571,7 +572,8 @@ color:#f7f7f7;
        min-height: 100vh;
         width: 100%;
         padding: 0 3vw;
-        padding-top: 42vh; 
+        padding-top: 30vh; 
+        
     } 
 
     
@@ -616,13 +618,12 @@ color:#f7f7f7;
         flex-direction: column;
         justify-content: space-between;
     
-    
     } 
     #page1 .elem {
         height: 100%;
         width: 100%;
         /* background-color: red; */
-        overflow:hidden;
+        
         margin-bottom: 3vw;
     }
 
@@ -801,18 +802,21 @@ color:#f7f7f7;
     font-weight: 100;
     }
     .child{
-        height: 20vh;
-        width: 10vw;
+        height: 40%;
+        padding: 5% 10%;
+        width: 100%;
         /* background-color: red; */
         display:flex;
         flex-direction: column;
         /* align-items:center; */
         /* justify-content:space-between; */
         position: relative;
+        top: 0%;
     }
     .child img{
         height: 100%;
-        padding: 40px;
+        width: 100%;
+        /* padding: 40px; */
         
        
     }
@@ -874,5 +878,26 @@ color:#f7f7f7;
             left: 7.5%;
             top: -67px;
             color: #747474;
+        }
+        #cursor{
+ opacity: 0;
+        }
+        h3{
+            font-size: 20px;
+            padding: 0 0px;
+            position: relative;
+            top: 0px;
+            right: 0px;
+            font-size: 25px;
+        }
+        #cherish{
+            position: relative;
+            right: 0;
+            top: 5%;
+        }
+        p{
+            font-size: 25px;
+            padding: 50px 20px;
+        
         }
 }
